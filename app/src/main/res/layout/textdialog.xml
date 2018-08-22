@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:gravity ="center">
+  
+  <ImageView
+  	android:id="@+id/textdialog_sampleimage"
+    android:layout_width="200px"
+    android:layout_height="60px"
+    android:layout_marginTop ="0px"
+    android:layout_marginBottom ="20px" >
+   </ImageView>
+   
+   <EditText
+   	android:id="@+id/textdialog_edittext"
+   	android:layout_width="fill_parent"
+   	android:layout_height="wrap_content"
+   	android:layout_marginLeft="40px"
+   	android:layout_marginRight="40px"
+   	android:text="Text">
+   </EditText>
+   
+   <LinearLayout
+   	android:layout_width="wrap_content"
+   	android:layout_height="wrap_content"
+   	android:orientation="horizontal">
+   	<CheckBox
+  	 android:id="@+id/textdialog_boldcheck"
+   	 android:layout_width="wrap_content"
+  	 android:layout_height="wrap_content" 
+   	 android:focusable="false"
+  	 android:text="Bold">
+  	</CheckBox>
+    <CheckBox
+  	 android:id="@+id/textdialog_linearcheck"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" 
+     android:focusable="false"
+     android:text="Linear">
+    </CheckBox>
+   </LinearLayout>
+   
+   <LinearLayout
+   	android:layout_width="wrap_content"
+   	android:layout_height="wrap_content"
+   	android:orientation="horizontal">
+   	<CheckBox
+  	 android:id="@+id/textdialog_antialiascheck"
+   	 android:layout_width="wrap_content"
+  	 android:layout_height="wrap_content" 
+   	 android:focusable="false"
+  	 android:text="AntiAlias">
+  	</CheckBox>
+    <CheckBox
+  	 android:id="@+id/textdialog_subpixelcheck"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" 
+     android:focusable="false"
+     android:text="SubPixel">
+    </CheckBox>
+   </LinearLayout>
+   
+   <TextView
+   	android:layout_width="wrap_content"
+   	android:layout_height="wrap_content"
+   	android:text="Skew">
+   	</TextView>
+   
+   <SeekBar
+   	android:id="@+id/textdialog_skewbar"
+   	android:layout_width="fill_parent"
+   	android:layout_height="wrap_content"
+   	android:layout_marginLeft="60px"
+   	android:layout_marginRight="60px"
+   	android:focusable="false">
+   </SeekBar>
+   
+   <LinearLayout
+   	android:layout_width="wrap_content"
+   	android:layout_height="wrap_content"
+   	android:orientation="horizontal">
+   	<Button
+  	 android:id="@+id/textdialog_buttonok"
+   	 android:layout_width="wrap_content"
+  	 android:layout_height="wrap_content" 
+  	 android:layout_marginTop="10px"
+  	 android:text="OK">
+  	</Button>
+    <Button
+  	 android:id="@+id/textdialog_buttoncancel"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" 
+     android:layout_marginTop="10px"
+     android:text="Cancel">
+    </Button>
+   </LinearLayout>
+   	
+</LinearLayout>

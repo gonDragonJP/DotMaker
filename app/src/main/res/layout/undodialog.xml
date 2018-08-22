@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:gravity="center">
+  
+  <RadioGroup
+  	  android:id="@+id/undodialod_radiogroup"
+  	  android:layout_width="wrap_content"
+  	  android:layout_height="wrap_content"
+  	  android:orientation="vertical">
+  	  <RadioButton
+  	  	android:id="@+id/undodialog_radioundo"
+  	  	android:layout_width="wrap_content"
+  	  	android:layout_height="wrap_content"
+  	  	android:text="Undo">
+  	  </RadioButton>
+  	  <RadioButton
+  	  	android:id="@+id/undodialog_radioredo"
+  	  	android:layout_width="wrap_content"
+  	  	android:layout_height="wrap_content"
+  	  	android:text="Redo">
+  	  </RadioButton>
+  </RadioGroup>
+  
+  <LinearLayout
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:orientation="horizontal">
+  	<Button
+  		android:id="@+id/undodialog_buttonok"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="OK">
+  	</Button>
+  	<Button
+  		android:id="@+id/undodialog_buttoncancel"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="Cancel">
+  	</Button>
+  </LinearLayout>
+  
+</LinearLayout>
